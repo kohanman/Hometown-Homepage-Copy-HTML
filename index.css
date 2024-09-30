@@ -5,15 +5,18 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 .hometown-homepage-hometown-homepage {
-  width: 100%;
+  width: 711px;
   height: 1115px;
   display: flex;
   overflow: hidden;
   position: relative;
-  align-items: flex-start;
+  align-items: flex-end;
   flex-shrink: 0;
+  margin-right: 2px;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 1);
 }
 .hometown-homepage-guide {
@@ -83,14 +86,6 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-.hometown-homepage-image6 {
-  top: 786px;
-  left: 331px;
-  width: 150px;
-  height: 259px;
-  position: absolute;
-  border-radius: 10px;
 }
 .hometown-homepage-activities {
   top: 343px;
@@ -402,7 +397,27 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.hometown-homepage-image6 {
+  left: 181px;
+  width: 150px;
+  bottom: 72px;
+  height: 259px;
+  position: absolute;
+  border-radius: 10px;
+}
+@media(max-width: 991px) {
+  .hometown-homepage-hometown-homepage {
+    justify-content: center;
+  }
+  .hometown-homepage-image6 {
+    left: 186px;
+    bottom: 63px;
+  }
+}
 @media(max-width: 767px) {
+  .hometown-homepage-hometown-homepage {
+    justify-content: center;
+  }
   .hometown-homepage-image6 {
     left: 186px;
     bottom: 70px;
